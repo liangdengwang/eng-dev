@@ -1,5 +1,7 @@
 # 校园后勤管理系统
 
+性能测试结果：[PageTest](https://pagespeed.web.dev/analysis/https-liangdengwang-github-io-eng-dev/tm8pdh2uik?form_factor=desktop)
+
 ## 项目介绍
 
 校园后勤管理系统是一个基于 Vue 3 + Vite + Element Plus + Tailwind CSS + ECharts 开发的现代化管理平台，用于高效管理校园后勤人员、设备维修、资产管理等工作。系统提供了直观的数据可视化界面，帮助管理人员实时掌握校园后勤工作状态，提高工作效率。

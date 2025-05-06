@@ -21,15 +21,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Node.js ≥18.12
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18.x'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 10
 
       - name: Install dependencies & build
         run: |
-          npm install pnpm -g
-          pnpm build   # 产物默认到 dist/
+          pnpm install
+          pnpm build
+
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
@@ -37,7 +43,7 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist    # 你 Vue 的输出文件夹
+          path: dist
 
   deploy:
     needs: build

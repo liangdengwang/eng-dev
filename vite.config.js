@@ -13,7 +13,7 @@ export default defineConfig(({ command, mode }) => {
   // 根据当前工作目录中的 `mode` 加载 .env 文件
   const env = loadEnv(mode, process.cwd())
   const isAnalyze = mode === 'analyze'
-  
+
   const plugins = [
     vue(),
     AutoImport({
@@ -33,7 +33,7 @@ export default defineConfig(({ command, mode }) => {
       ext: '.gz',
     }),
   ]
-  
+
   // 在分析模式下添加可视化插件
   if (isAnalyze) {
     plugins.push(
@@ -45,7 +45,7 @@ export default defineConfig(({ command, mode }) => {
       })
     )
   }
-  
+
   return {
     plugins,
     resolve: {
@@ -86,8 +86,9 @@ export default defineConfig(({ command, mode }) => {
     server: {
       port: 3000,
       open: true,
-      cors: true
-    }
+      cors: true,
+    },
+    base: '/eng-dev'
   }
 })
 

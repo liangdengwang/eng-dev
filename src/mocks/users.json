@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "张三",
+    "email": "zhangsan@example.com",
+    "role": "admin",
+    "status": "active",
+    "registerDate": "2025-01-15",
+    "lastLogin": "2025-05-06 08:30:45",
+    "avatar": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "李四",
+    "email": "lisi@example.com",
+    "role": "editor",
+    "status": "active",
+    "registerDate": "2025-02-20",
+    "lastLogin": "2025-05-05 16:42:12",
+    "avatar": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "王五",
+    "email": "wangwu@example.com",
+    "role": "user",
+    "status": "disabled",
+    "registerDate": "2025-03-10",
+    "lastLogin": "2025-04-28 09:15:30",
+    "avatar": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "赵六",
+    "email": "zhaoliu@example.com",
+    "role": "user",
+    "status": "active",
+    "registerDate": "2025-03-15",
+    "lastLogin": "2025-05-04 14:22:18",
+    "avatar": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "钱七",
+    "email": "qianqi@example.com",
+    "role": "visitor",
+    "status": "pending",
+    "registerDate": "2025-04-01",
+    "lastLogin": "2025-04-01 10:30:00",
+    "avatar": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "孙八",
+    "email": "sunba@example.com",
+    "role": "editor",
+    "status": "active",
+    "registerDate": "2025-04-15",
+    "lastLogin": "2025-05-05 11:24:36",
+    "avatar": "https://randomuser.me/api/portraits/men/6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "周九",
+    "email": "zhoujiu@example.com",
+    "role": "user",
+    "status": "active",
+    "registerDate": "2025-04-20",
+    "lastLogin": "2025-05-03 16:48:22",
+    "avatar": "https://randomuser.me/api/portraits/men/7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "吴十",
+    "email": "wushi@example.com",
+    "role": "user",
+    "status": "disabled",
+    "registerDate": "2025-04-25",
+    "lastLogin": "2025-04-30 09:12:45",
+    "avatar": "https://randomuser.me/api/portraits/men/8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "郑十一",
+    "email": "zhengshiyi@example.com",
+    "role": "visitor",
+    "status": "pending",
+    "registerDate": "2025-05-01",
+    "lastLogin": "2025-05-01 14:20:10",
+    "avatar": "https://randomuser.me/api/portraits/men/9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "王十二",
+    "email": "wangshier@example.com",
+    "role": "user",
+    "status": "active",
+    "registerDate": "2025-05-05",
+    "lastLogin": "2025-05-05 18:30:55",
+    "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
+  }
+]

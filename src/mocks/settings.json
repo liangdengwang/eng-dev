@@ -1,0 +1,170 @@
+{
+  "basicSettings": {
+    "systemName": "清华大学校园后勤处管理系统",
+    "systemDescription": "基于Vue3、Element Plus、Tailwind CSS和ECharts构建的现代化后台管理系统",
+    "logo": "https://randomuser.me/api/portraits/men/1.jpg",
+    "favicon": "https://randomuser.me/api/portraits/men/1.jpg",
+    "primaryColor": "#2b7fff",
+    "layout": "sidebar",
+    "language": "zh-CN"
+  },
+  "securitySettings": {
+    "minPasswordLength": 8,
+    "passwordRequirements": ["uppercase", "lowercase", "numbers"],
+    "passwordExpiry": "90days",
+    "loginAttempts": 5,
+    "lockoutDuration": 15,
+    "twoFactorAuth": false,
+    "rememberMeDuration": "7days"
+  },
+  "notificationSettings": {
+    "smtpServer": "smtp.example.com",
+    "smtpPort": 587,
+    "senderEmail": "noreply@example.com",
+    "senderName": "后台管理系统",
+    "smtpUsername": "username",
+    "smtpPassword": "password",
+    "encryption": "tls",
+    "events": {
+      "userRegistration": true,
+      "passwordReset": true,
+      "newOrder": true,
+      "orderStatusChange": false,
+      "systemAlert": true
+    }
+  },
+  "backupSettings": {
+    "autoBackup": true,
+    "backupFrequency": "daily",
+    "backupTime": "2025-05-06T02:00:00",
+    "keepBackups": 7,
+    "storageType": "local",
+    "cloudProvider": "aliyun"
+  },
+  "backupHistory": [
+    {
+      "date": "2025-05-06 02:00:00",
+      "size": "128MB",
+      "type": "自动",
+      "status": "success"
+    },
+    {
+      "date": "2025-05-05 02:00:00",
+      "size": "125MB",
+      "type": "自动",
+      "status": "success"
+    },
+    {
+      "date": "2025-05-04 02:00:00",
+      "size": "124MB",
+      "type": "自动",
+      "status": "success"
+    },
+    {
+      "date": "2025-05-03 15:30:12",
+      "size": "123MB",
+      "type": "手动",
+      "status": "success"
+    },
+    {
+      "date": "2025-05-03 02:00:00",
+      "size": "122MB",
+      "type": "自动",
+      "status": "success"
+    },
+    {
+      "date": "2025-05-02 02:00:00",
+      "size": "120MB",
+      "type": "自动",
+      "status": "success"
+    },
+    {
+      "date": "2025-05-01 02:00:00",
+      "size": "118MB",
+      "type": "自动",
+      "status": "success"
+    }
+  ],
+  "systemLogs": [
+    {
+      "timestamp": "2025-05-06 08:45:12",
+      "level": "info",
+      "source": "用户管理",
+      "message": "用户登录成功",
+      "user": "admin",
+      "ip": "192.168.1.1"
+    },
+    {
+      "timestamp": "2025-05-06 08:30:05",
+      "level": "info",
+      "source": "系统",
+      "message": "系统启动完成",
+      "user": "system",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2025-05-05 18:22:34",
+      "level": "warning",
+      "source": "安全",
+      "message": "多次登录失败",
+      "user": "unknown",
+      "ip": "203.0.113.1"
+    },
+    {
+      "timestamp": "2025-05-05 16:15:22",
+      "level": "info",
+      "source": "订单管理",
+      "message": "新订单创建: ORD-7865",
+      "user": "operator",
+      "ip": "192.168.1.5"
+    },
+    {
+      "timestamp": "2025-05-05 15:30:18",
+      "level": "error",
+      "source": "数据库",
+      "message": "数据库连接超时",
+      "user": "system",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2025-05-05 14:22:10",
+      "level": "info",
+      "source": "用户管理",
+      "message": "新用户注册: user123",
+      "user": "system",
+      "ip": "192.168.1.10"
+    },
+    {
+      "timestamp": "2025-05-05 12:10:45",
+      "level": "info",
+      "source": "备份",
+      "message": "自动备份完成",
+      "user": "system",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2025-05-05 10:05:32",
+      "level": "warning",
+      "source": "系统",
+      "message": "CPU使用率超过80%",
+      "user": "system",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2025-05-04 22:15:48",
+      "level": "error",
+      "source": "API",
+      "message": "外部API请求失败",
+      "user": "system",
+      "ip": "127.0.0.1"
+    },
+    {
+      "timestamp": "2025-05-04 18:30:22",
+      "level": "info",
+      "source": "用户管理",
+      "message": "用户密码修改",
+      "user": "user456",
+      "ip": "192.168.1.8"
+    }
+  ]
+}

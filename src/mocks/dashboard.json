@@ -1,0 +1,97 @@
+{
+  "stats": {
+    "totalUsers": 8546,
+    "totalOrders": 3672,
+    "totalRevenue": 128350,
+    "averageRating": 4.8,
+    "userGrowth": 12,
+    "orderGrowth": 8,
+    "revenueGrowth": -4,
+    "ratingGrowth": 0.2
+  },
+  "revenueChart": {
+    "xAxis": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+    "series": [
+      {
+        "name": "实际收入",
+        "type": "line",
+        "smooth": true,
+        "data": [15000, 18000, 22000, 20000, 24000, 25000, 26000, 28000, 30000, 32000, 35000, 38000],
+        "itemStyle": {
+          "color": "#2b7fff"
+        },
+        "areaStyle": {
+          "color": {
+            "type": "linear",
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "colorStops": [
+              { "offset": 0, "color": "rgba(43, 127, 255, 0.3)" },
+              { "offset": 1, "color": "rgba(43, 127, 255, 0.1)" }
+            ]
+          }
+        }
+      },
+      {
+        "name": "预期收入",
+        "type": "line",
+        "smooth": true,
+        "data": [18000, 20000, 24000, 25000, 27000, 28000, 30000, 32000, 34000, 36000, 38000, 40000],
+        "itemStyle": {
+          "color": "#73d13d"
+        }
+      }
+    ]
+  },
+  "userGrowthChart": {
+    "xAxis": ["1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"],
+    "series": [
+      {
+        "name": "新用户",
+        "type": "bar",
+        "data": [120, 150, 180, 200, 220, 250, 280, 300, 320, 350, 380, 400],
+        "itemStyle": {
+          "color": {
+            "type": "linear",
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "colorStops": [
+              { "offset": 0, "color": "#2b7fff" },
+              { "offset": 1, "color": "#bfdbff" }
+            ]
+          },
+          "borderRadius": [4, 4, 0, 0]
+        }
+      }
+    ]
+  },
+  "categoryDistribution": {
+    "name": "产品类别",
+    "legendData": ["电子产品", "服装", "食品", "家居", "其他"],
+    "data": [
+      { "value": 40, "name": "电子产品" },
+      { "value": 25, "name": "服装" },
+      { "value": 15, "name": "食品" },
+      { "value": 12, "name": "家居" },
+      { "value": 8, "name": "其他" }
+    ]
+  },
+  "recentOrders": [
+    { "id": "ORD-7865", "customer": "张三", "date": "2025-05-05", "amount": "¥2,450", "status": "已完成" },
+    { "id": "ORD-7864", "customer": "李四", "date": "2025-05-05", "amount": "¥1,250", "status": "处理中" },
+    { "id": "ORD-7863", "customer": "王五", "date": "2025-05-04", "amount": "¥3,750", "status": "已发货" },
+    { "id": "ORD-7862", "customer": "赵六", "date": "2025-05-04", "amount": "¥950", "status": "已完成" },
+    { "id": "ORD-7861", "customer": "钱七", "date": "2025-05-03", "amount": "¥1,850", "status": "已取消" }
+  ],
+  "recentActivities": [
+    { "type": "success", "time": "2025-05-06 08:30", "content": "系统更新完成，新增数据分析功能" },
+    { "type": "warning", "time": "2025-05-05 16:45", "content": "服务器负载过高，已自动扩容" },
+    { "type": "info", "time": "2025-05-05 14:20", "content": "新用户注册数量达到日目标" },
+    { "type": "success", "time": "2025-05-05 10:15", "content": "完成了50笔订单处理" },
+    { "type": "danger", "time": "2025-05-04 18:30", "content": "检测到异常登录尝试，已阻止" }
+  ]
+}

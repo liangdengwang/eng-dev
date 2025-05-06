@@ -1,0 +1,145 @@
+{
+  "summary": {
+    "totalSales": 1284350,
+    "orderCount": 12846,
+    "averageOrderValue": 99.98,
+    "conversionRate": 24.8,
+    "salesGrowth": 15.2,
+    "orderGrowth": 8.4,
+    "valueGrowth": 6.3,
+    "conversionGrowth": -2.1
+  },
+  "salesTrend": {
+    "xAxis": ["1日", "2日", "3日", "4日", "5日", "6日", "7日", "8日", "9日", "10日", "11日", "12日", "13日", "14日", "15日", "16日", "17日", "18日", "19日", "20日", "21日", "22日", "23日", "24日", "25日", "26日", "27日", "28日", "29日", "30日"],
+    "yAxis": [
+      {
+        "type": "value",
+        "name": "销售额",
+        "position": "left",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#2b7fff"
+          }
+        },
+        "axisLabel": {
+          "formatter": "{value} 元"
+        }
+      },
+      {
+        "type": "value",
+        "name": "订单数",
+        "position": "right",
+        "axisLine": {
+          "show": true,
+          "lineStyle": {
+            "color": "#73d13d"
+          }
+        },
+        "axisLabel": {
+          "formatter": "{value} 单"
+        }
+      }
+    ],
+    "series": [
+      {
+        "name": "销售额",
+        "type": "line",
+        "smooth": true,
+        "data": [
+          42000, 38000, 35000, 30000, 32000, 40000, 48000,
+          45000, 42000, 40000, 38000, 35000, 34000, 32000,
+          36000, 38000, 40000, 45000, 48000, 50000, 52000,
+          48000, 45000, 40000, 42000, 44000, 46000, 48000,
+          50000, 52000
+        ],
+        "itemStyle": {
+          "color": "#2b7fff"
+        },
+        "areaStyle": {
+          "color": {
+            "type": "linear",
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "colorStops": [
+              { "offset": 0, "color": "rgba(43, 127, 255, 0.3)" },
+              { "offset": 1, "color": "rgba(43, 127, 255, 0.1)" }
+            ]
+          }
+        }
+      },
+      {
+        "name": "订单数",
+        "type": "line",
+        "smooth": true,
+        "yAxisIndex": 1,
+        "data": [
+          420, 380, 350, 300, 320, 400, 480,
+          450, 420, 400, 380, 350, 340, 320,
+          360, 380, 400, 450, 480, 500, 520,
+          480, 450, 400, 420, 440, 460, 480,
+          500, 520
+        ],
+        "itemStyle": {
+          "color": "#73d13d"
+        }
+      }
+    ]
+  },
+  "categorySales": {
+    "name": "产品类别销售",
+    "legendData": ["电子产品", "服装", "食品", "家居", "其他"],
+    "data": [
+      { "value": 420000, "name": "电子产品" },
+      { "value": 320000, "name": "服装" },
+      { "value": 240000, "name": "食品" },
+      { "value": 180000, "name": "家居" },
+      { "value": 124350, "name": "其他" }
+    ]
+  },
+  "regionSales": {
+    "xAxis": ["华东", "华南", "华北", "华中", "西部"],
+    "series": [
+      {
+        "name": "销售额",
+        "type": "bar",
+        "data": [380000, 320000, 290000, 184350, 110000],
+        "itemStyle": {
+          "color": {
+            "type": "linear",
+            "x": 0,
+            "y": 0,
+            "x2": 0,
+            "y2": 1,
+            "colorStops": [
+              { "offset": 0, "color": "#2b7fff" },
+              { "offset": 1, "color": "#bfdbff" }
+            ]
+          },
+          "borderRadius": [4, 4, 0, 0]
+        }
+      }
+    ]
+  },
+  "salesFunnel": [
+    { "value": 100, "name": "访问" },
+    { "value": 80, "name": "浏览" },
+    { "value": 60, "name": "加购" },
+    { "value": 40, "name": "下单" },
+    { "value": 24.8, "name": "支付" }
+  ],
+  "salesData": [
+    { "date": "2025-05-06", "product": "iPhone 15", "category": "电子产品", "region": "华东", "sales": 12500, "quantity": 10, "growth": 15.2 },
+    { "date": "2025-05-06", "product": "MacBook Pro", "category": "电子产品", "region": "华南", "sales": 18000, "quantity": 6, "growth": 8.4 },
+    { "date": "2025-05-05", "product": "运动鞋", "category": "服装", "region": "华北", "sales": 5400, "quantity": 18, "growth": 12.3 },
+    { "date": "2025-05-05", "product": "休闲裤", "category": "服装", "region": "华中", "sales": 3600, "quantity": 12, "growth": 5.8 },
+    { "date": "2025-05-05", "product": "有机蔬菜", "category": "食品", "region": "华东", "sales": 2400, "quantity": 80, "growth": 18.5 },
+    { "date": "2025-05-04", "product": "坚果礼盒", "category": "食品", "region": "华南", "sales": 4800, "quantity": 40, "growth": 7.2 },
+    { "date": "2025-05-04", "product": "沙发", "category": "家居", "region": "华北", "sales": 7500, "quantity": 5, "growth": -2.1 },
+    { "date": "2025-05-04", "product": "床垫", "category": "家居", "region": "西部", "sales": 6000, "quantity": 4, "growth": 3.5 },
+    { "date": "2025-05-03", "product": "智能手表", "category": "电子产品", "region": "华中", "sales": 5400, "quantity": 9, "growth": 22.4 },
+    { "date": "2025-05-03", "product": "无线耳机", "category": "电子产品", "region": "华东", "sales": 3600, "quantity": 12, "growth": 15.8 }
+  ]
+}

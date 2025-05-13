@@ -1,9 +1,10 @@
 <template>
   <div class="admin-layout min-h-screen bg-gray-50 flex overflow-hidden">
     <!-- Sidebar -->
+    <!-- Sidebar -->
     <div
-      class="sidebar w-64 bg-white shadow-md transition-all duration-300 flex flex-col"
-      :class="{ 'w-20': collapsed }"
+      class="sidebar bg-white shadow-md transition-all duration-300 flex flex-col fixed top-0 left-0 z-10 h-screen"
+      :class="{ 'w-20': collapsed, 'w-64': !collapsed }"
     >
       <div
         class="logo-container p-4 flex items-center justify-between border-b border-gray-100"
@@ -80,7 +81,11 @@
     </div>
 
     <!-- Main Content -->
-    <div class="content-container flex-1 flex flex-col overflow-hidden">
+    <!-- Main Content -->
+    <div
+      class="content-container flex-1 flex flex-col overflow-hidden"
+      :style="{ marginLeft: collapsed ? '5rem' : '16rem' }"
+    >
       <!-- Header -->
       <header class="bg-white shadow-sm p-4 flex justify-between items-center">
         <div class="flex items-center">
